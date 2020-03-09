@@ -18,8 +18,9 @@ hours = keyboard.nextInt();
 System.out.println("Enter a value for minutes");
 minutes = keyboard.nextInt();
        hours = minutes >=60 ? ++hours : hours;
-     //minutes = minutes 60%
-     // minutes %= 60;
+     //minutes = minutes %60 ;
+     //minutes %= 60;
+    hours = hours %12;
 System.out.println(hours + ": " + minutes);
     }
 }
