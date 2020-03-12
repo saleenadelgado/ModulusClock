@@ -21,6 +21,6 @@ minutes = keyboard.nextInt();
        minutes = minutes %60 ;
      //minutes %= 60;
     hours = hours %12;
-System.out.println(hours + ": " + minutes);
+        System.out.printf("The time is: %d:%02d",hours,minutes );
     }
 }
